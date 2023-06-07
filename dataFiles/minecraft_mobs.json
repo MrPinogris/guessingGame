@@ -1,0 +1,404 @@
+{
+  "allay": {
+    "name": "Allay",
+    "hints": [
+      {
+        "text": "A small flying passive mob",
+        "difficulty": 1
+      },
+      {
+        "text": "Collects and delivers items for players",
+        "difficulty": 2
+      },
+      {
+        "text": "Spawns near Pillager Outposts and Woodland Mansions",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be found in dark oak cages or jail cells",
+        "difficulty": 1
+      },
+      {
+        "text": "Follows the player and seeks dropped items of the same type",
+        "difficulty": 3
+      },
+      {
+        "text": "Responds to note block sounds within 16 blocks",
+        "difficulty": 4
+      },
+      {
+        "text": "Cannot enter water, but attempts to gather items underwater",
+        "difficulty": 3
+      },
+      {
+        "text": "Regenerates health at a rate of 2♥ per second",
+        "difficulty": 2
+      },
+      {
+        "text": "Drops items it was holding upon death",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be duplicated using an Amethyst Shard and a dancing Allay",
+        "difficulty": 5
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:allay",
+      "entity_type": "Passive mob",
+      "spawn_conditions": [
+        "Light level: Any",
+        "Biomes: Pillager Outpost, Woodland Mansion"
+      ],
+      "drops": [
+        "Amethyst Shard (0-1)",
+        "Experience orbs (1-3)"
+      ]
+    }
+  },
+  "axolotl": {
+    "name": "Axolotl",
+    "hints": [
+      {
+        "text": "A passive bucketable aquatic mob",
+        "difficulty": 1
+      },
+      {
+        "text": "Found in lush caves and spawns near clay blocks",
+        "difficulty": 2
+      },
+      {
+        "text": "Comes in different colors: pink, brown, gold, cyan, and blue",
+        "difficulty": 2
+      },
+      {
+        "text": "Can assist players with aquatic combat and grant them Regeneration",
+        "difficulty": 3
+      },
+      {
+        "text": "Attacks most other aquatic mobs, except turtles, dolphins, and frogs",
+        "difficulty": 4
+      },
+      {
+        "text": "Can play dead to regenerate health and ignore hostile aquatic mobs",
+        "difficulty": 3
+      },
+      {
+        "text": "Can leave water and wander on land in search of deep water",
+        "difficulty": 2
+      },
+      {
+        "text": "Vulnerable to Impaling enchantment and can cause nearby pufferfish to inflate",
+        "difficulty": 3
+      },
+      {
+        "text": "Can be bred using buckets of tropical fish and lead",
+        "difficulty": 2
+      },
+      {
+        "text": "Spawns with different color variants, including leucistic and blue",
+        "difficulty": 2
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:axolotl",
+      "entity_type": "Passive mob",
+      "spawn_conditions": [
+        "Biome: Lush Caves",
+        "Clay block less than 5 blocks below spawning space"
+      ],
+      "drops": [
+        "Axolotl Bucket (if bucketed)",
+        "Experience orbs (1-3)"
+      ]
+    }
+  },
+  "bat": {
+    "name": "Bat",
+    "hints": [
+      {
+        "text": "A flying ambient passive mob",
+        "difficulty": 1
+      },
+      {
+        "text": "Spawns in dark areas underground",
+        "difficulty": 2
+      },
+      {
+        "text": "Hangs upside down on solid blocks when idle",
+        "difficulty": 2
+      },
+      {
+        "text": "Does not drop any items or experience upon death",
+        "difficulty": 2
+      },
+      {
+        "text": "Squeaks randomly and flies around aimlessly",
+        "difficulty": 2
+      },
+      {
+        "text": "Despawns when too far away from the player",
+        "difficulty": 2
+      },
+      {
+        "text": "Can fly into lava and catch on fire",
+        "difficulty": 2
+      },
+      {
+        "text": "Flies away if approached by a player or if its hanging block is broken",
+        "difficulty": 3
+      },
+      {
+        "text": "Spawns more frequently between October 20 and November 3 as an Easter egg",
+        "difficulty": 3
+      },
+      {
+        "text": "Collision boxes do not interact with players or redstone components",
+        "difficulty": 2
+      }
+    ],
+    "technical_info": {
+      "classification": "Animal",
+      "behavior": "Passive",
+      "spawn_conditions": [
+        "Below layer 63",
+        "Light level of 3 or less in neighboring blocks",
+        "October 20 – November 3: light level of 6 or less in neighboring blocks"
+      ],
+      "drops": []
+    }
+  },
+  "cat": {
+    "name": "Cat",
+    "hints": [
+      {
+        "text": "A passive mob found in villages and swamp huts",
+        "difficulty": 1
+      },
+      {
+        "text": "Can be tamed and used to repel creepers and phantoms",
+        "difficulty": 2
+      },
+      {
+        "text": "Spawns in villages with fewer than 5 cats and inside swamp huts",
+        "difficulty": 2
+      },
+      {
+        "text": "Comes in different variants: black, tabby, tuxedo, red, siamese, etc.",
+        "difficulty": 2
+      },
+      {
+        "text": "Immune to fall damage and avoids falling off cliffs",
+        "difficulty": 1
+      },
+      {
+        "text": "Can see players even with Invisibility status effect",
+        "difficulty": 3
+      },
+      {
+        "text": "Avoids and hisses at phantoms, repelling them",
+        "difficulty": 2
+      },
+      {
+        "text": "Creepers and phantoms avoid cats, keeping a distance",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be tamed with raw cod or raw salmon",
+        "difficulty": 2
+      },
+      {
+        "text": "Teleports to the player if more than 12 blocks away",
+        "difficulty": 2
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:cat",
+      "entity_type": "Passive mob",
+      "spawn_conditions": [
+        "Villages with fewer than 5 cats",
+        "Swamp huts"
+      ],
+      "drops": [
+        "String (0-2)",
+        "Experience orbs (1-3)",
+        "Upon breeding: 1-7 experience orbs"
+      ]
+    }
+  },
+  "chicken": {
+    "hints": [
+      {
+        "text": "A passive mob found in grass biomes",
+        "difficulty": 1
+      },
+      {
+        "text": "Drops chicken, feathers, and eggs",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be bred using wheat seeds, beetroot seeds, melon seeds, or pumpkin seeds",
+        "difficulty": 2
+      },
+      {
+        "text": "Spawns in groups on grass blocks with 2 blocks of free space above",
+        "difficulty": 2
+      },
+      {
+        "text": "Avoids falling off cliffs and is immune to fall damage",
+        "difficulty": 1
+      },
+      {
+        "text": "Follows players holding seeds",
+        "difficulty": 2
+      },
+      {
+        "text": "Pursued and attacked by ocelots, untamed cats, and foxes",
+        "difficulty": 3
+      },
+      {
+        "text": "Lays eggs every 5 to 10 minutes",
+        "difficulty": 2
+      },
+      {
+        "text": "Thrown eggs have a 1/8 chance of spawning a baby chicken",
+        "difficulty": 2
+      },
+      {
+        "text": "Baby chickens grow into adults in 20 minutes and can be accelerated with seeds",
+        "difficulty": 2
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:chicken",
+      "entity_type": "Passive mob",
+      "spawn_conditions": [
+        "Grass blocks with 2 blocks of free space above",
+        "Light level of 9 or more"
+      ],
+      "drops": [
+        "Raw Chicken (1)",
+        "Feathers (0-2)",
+        "Egg (1)",
+        "Experience orbs (1-3)",
+        "Upon breeding: 1-7 experience orbs"
+      ]
+    }
+  },
+  "cod": {
+    "hints": [
+      {
+        "text": "A common bucketable aquatic mob found in oceans",
+        "difficulty": 1
+      },
+      {
+        "text": "Drops raw cod when killed, cooked cod if killed while on fire",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be collected using a water bucket",
+        "difficulty": 2
+      },
+      {
+        "text": "Spawns in groups underwater, subject to fish spawning requirements",
+        "difficulty": 2
+      },
+      {
+        "text": "Weakness: Cannot survive outside of water and takes suffocation damage after 10 seconds",
+        "difficulty": 3
+      },
+      {
+        "text": "Can be placed in a water bucket and emptied to create a water source with swimming cod",
+        "difficulty": 2
+      },
+      {
+        "text": "Vulnerable to weapons with the Impaling enchantment",
+        "difficulty": 3
+      },
+      {
+        "text": "Sometimes drops bone meal (Java Edition) or bones (Bedrock Edition)",
+        "difficulty": 2
+      },
+      {
+        "text": "Can swim in water but cannot survive in waterlogged blocks",
+        "difficulty": 2
+      },
+      {
+        "text": "Spawns in different ocean variants, including cold, lukewarm, and deep oceans",
+        "difficulty": 2
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:cod",
+      "entity_type": "Passive mob",
+      "spawn_conditions": [
+        "Underwater in normal, cold, and lukewarm oceans, and their deep variants"
+      ],
+      "drops": [
+        "Raw Cod (1)",
+        "Cooked Cod (if killed while on fire)",
+        "Bone Meal (Java Edition, 5% chance)",
+        "Bones (Bedrock Edition, 25% chance)",
+        "Experience orbs (1-3)"
+      ]
+    }
+  },
+  "cow": {
+    "hints": [
+      {
+        "text": "A passive mob found in grassy biomes",
+        "difficulty": 1
+      },
+      {
+        "text": "Drops leather, beef, and milk",
+        "difficulty": 2
+      },
+      {
+        "text": "Spawns in herds on grass blocks with space above them",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be bred using wheat and follows players holding wheat",
+        "difficulty": 2
+      },
+      {
+        "text": "Avoids environmental hazards but does not avoid explosions",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be milked using a bucket",
+        "difficulty": 2
+      },
+      {
+        "text": "Has a chance of spawning as a calf",
+        "difficulty": 2
+      },
+      {
+        "text": "Vulnerable to attacks and runs away when harmed",
+        "difficulty": 2
+      },
+      {
+        "text": "Drops raw beef, steak, and leather when killed",
+        "difficulty": 2
+      },
+      {
+        "text": "Spawns in most grassy biomes except snowy taigas and plains",
+        "difficulty": 2
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:cow",
+      "entity_type": "Passive mob",
+      "spawn_conditions": [
+        "Grass blocks with at least two blocks of space above them"
+      ],
+      "drops": [
+        "Leather (0-2)",
+        "Raw Beef (1-3)",
+        "Steak (if killed while on fire)",
+        "Experience orbs (1-3)",
+        "Milk bucket (when milked)"
+      ]
+    }
+  }
+}
