@@ -1,39 +1,52 @@
-# game.py
+import json
+import time
 import random
+import difflib
 
-class Game:
-    def __init__(self):
-        self.secret_number = None
-        self.number_of_guesses = 0
-        # Add more member variables as needed
+def load_mobs(file_name):
+    with open(file_name, 'r') as file:
+        return json.load(file)
 
-    def start(self):
-        self.initialize()
+def get_closest_match(user_input, mob_keys):
+    return difflib.get_close_matches(user_input, mob_keys, n=1, cutoff=0.6)
 
-        # Game loop
-        while True:
-            guess = self.get_user_guess()
+def main():
+    mobs = load_mobs('..//dataFiles//minecraft_mobs.json')
+    random_mob = random.choice(list(mobs.keys()))
+    mob = mobs[random_mob]
+    mob_keys = list(mobs.keys())
 
-            if guess == self.secret_number:
-                print("Congratulations! You guessed the correct number.")
-                break
+    print("Guess the Minecraft mob!")
+    score = 0
+    hints_used = 0
+    hint_index = 0
+    start_time = time.time()
+
+    while hint_index < len(mob["hints"]):
+        user_input = input("Do you want a hint or make a guess? (hint/guess): ")
+        if user_input.lower() == 'hint':
+            print(f"Hint {hint_index + 1}: {mob['hints'][hint_index]['text']}")
+            hints_used += 1
+            hint_index += 1
+        elif user_input.lower() == 'guess':
+            guess = input("Your guess: ").lower()
+            closest_match = get_closest_match(guess, mob_keys)
+
+            if closest_match and closest_match[0] == random_mob:
+                end_time = time.time()
+                time_taken = end_time - start_time
+                score = max(100 - (hints_used * 10 + int(time_taken)), 0)
+                print(f"Correct! The mob is {random_mob}.")
+                print(f"You used {hints_used} hints and took {int(time_taken)} seconds. Your score is {score}.")
+                return
             else:
-                print("Wrong guess. Try again!")
-                self.number_of_guesses += 1
-                # Provide additional feedback or hints if needed
+                print("Incorrect. Try again.")
+                if closest_match:
+                    print(f"Did you mean: {closest_match[0]}?")
+        else:
+            print("Please type 'hint' to get a hint or 'guess' to make a guess.")
 
-        # Display game statistics or perform other actions after the game ends
+    print(f"You used all hints. The mob was {random_mob}.")
 
-    def initialize(self):
-        # Initialize the game by generating a secret number, resetting the number of guesses, etc.
-        self.secret_number = random.randint(1, 100)
-        self.number_of_guesses = 0
-
-    def get_user_guess(self):
-        # Accept user input for the guess and return the entered number
-        while True:
-            try:
-                guess = int(input("Enter your guess: "))
-                return guess
-            except ValueError:
-                print("Invalid input. Please enter a valid number.")
+if __name__ == "__main__":
+    main()

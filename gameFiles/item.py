@@ -1,4 +1,0 @@
-#item.py
-
-class Item{
-}
