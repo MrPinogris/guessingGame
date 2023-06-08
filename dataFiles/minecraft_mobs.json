@@ -400,5 +400,1272 @@
         "Milk bucket (when milked)"
       ]
     }
+  },
+  "donkey": {
+    "hints": [
+      {
+        "text": "A variant of a horse that can be tamed and ridden",
+        "difficulty": 1
+      },
+      {
+        "text": "Spawns in plains, meadows, and savannas",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be equipped with a saddle and chest",
+        "difficulty": 2
+      },
+      {
+        "text": "Has a foal variant that grows into an adult",
+        "difficulty": 2
+      },
+      {
+        "text": "Drops leather, chest, and saddle upon death",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be tamed by repeatedly mounting it until hearts appear",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be bred by feeding two donkeys golden apples or golden carrots",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be used for transportation and can jump over 1.5 blocks high",
+        "difficulty": 3
+      },
+      {
+        "text": "Can be equipped with a chest to store items",
+        "difficulty": 2
+      },
+      {
+        "text": "Can follow players holding golden carrots, golden apples, or enchanted golden apples",
+        "difficulty": 2
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:donkey",
+      "entity_type": "Animal",
+      "spawn_conditions": [
+        "Plains, meadows, savannas",
+        "Light level 7 or above (Bedrock Edition)"
+      ],
+      "drops": [
+        "Leather (0-2)",
+        "Chest (if equipped)",
+        "Saddle (if equipped)",
+        "Chest contents (if equipped)"
+      ]
+    }
+  },
+  "fox": {
+    "hints": [
+      {
+        "text": "A passive mob found in taigas and snowy taigas",
+        "difficulty": 1
+      },
+      {
+        "text": "Can carry a single item in its mouth, but prefers food",
+        "difficulty": 2
+      },
+      {
+        "text": "Has different variants: red fox and snow fox",
+        "difficulty": 2
+      },
+      {
+        "text": "Drops experience orbs when killed and drops items it picks up",
+        "difficulty": 2
+      },
+      {
+        "text": "Attacks chickens, rabbits, fish, and baby turtles",
+        "difficulty": 3
+      },
+      {
+        "text": "Can pounce on its prey by leaping two blocks into the air",
+        "difficulty": 3
+      },
+      {
+        "text": "Flees from wolves, polar bears, and players, unless the player is sneaking",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be bred using sweet berries or glow berries",
+        "difficulty": 2
+      },
+      {
+        "text": "Trusting foxes defend players from certain hostile mobs",
+        "difficulty": 3
+      },
+      {
+        "text": "Can sleep during the day if sky light level is low",
+        "difficulty": 2
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:fox",
+      "entity_type": "Animal",
+      "spawn_conditions": [
+        "Taiga, snowy taiga, old growth taiga, grove biomes",
+        "Grass, coarse dirt, podzol, snow blocks, or top snow"
+      ],
+      "drops": [
+        "Experience orbs (1-2)",
+        "Items it picks up"
+      ]
+    }
+  },
+  "frog": {
+    "name": "Frog",
+    "hints": [
+      {
+        "text": "A passive mob found in swamps",
+        "difficulty": 1
+      },
+      {
+        "text": "Eats small slimes and magma cubes",
+        "difficulty": 2
+      },
+      {
+        "text": "Comes in three variants: temperate, warm, and cold",
+        "difficulty": 2
+      },
+      {
+        "text": "Drops 1-3 slimeballs when killed",
+        "difficulty": 2
+      },
+      {
+        "text": "Jumps 8 blocks high and takes reduced fall damage",
+        "difficulty": 3
+      },
+      {
+        "text": "Swims faster in water and can swim downwards if lured by a player",
+        "difficulty": 2
+      },
+      {
+        "text": "Attacks small slimes and small magma cubes, instantly despawning them",
+        "difficulty": 3
+      },
+      {
+        "text": "Can be bred using slimeballs",
+        "difficulty": 2
+      },
+      {
+        "text": "Emits croaking sounds and occasionally inflates its vocal sac",
+        "difficulty": 1
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:frog",
+      "entity_type": "Animal",
+      "spawn_conditions": [
+        "Swamp and mangrove swamp biomes",
+        "Grown from tadpoles in various biomes"
+      ],
+      "drops": [
+        "1-3 Slimeballs"
+      ]
+    }
+  },
+  "glow_squid": {
+    "name": "glow_squid",
+    "hints": [
+      {
+        "text": "An aquatic passive mob found in dark underwater areas",
+        "difficulty": 1
+      },
+      {
+        "text": "Spawns in ocean depths, ravines, and underground lakes",
+        "difficulty": 2
+      },
+      {
+        "text": "Has an aqua luminescent texture",
+        "difficulty": 2
+      },
+      {
+        "text": "Wanders aimlessly in water and opens/closes its tentacles",
+        "difficulty": 2
+      },
+      {
+        "text": "Suffocates and dies when out of water",
+        "difficulty": 2
+      },
+      {
+        "text": "Does not produce light but appears to glow",
+        "difficulty": 1
+      },
+      {
+        "text": "Passive towards players and not attracted to light",
+        "difficulty": 2
+      },
+      {
+        "text": "Drops glow ink sacs and experience orbs when killed",
+        "difficulty": 2
+      },
+      {
+        "text": "Can't swim in lava and is affected by the Impaling enchantment",
+        "difficulty": 2
+      },
+      {
+        "text": "Produces crystalline particles and shoots turquoise ink when attacked",
+        "difficulty": 3
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:glow_squid",
+      "entity_type": "Animal",
+      "spawn_conditions": [
+        "Complete darkness below layer 30 in the Overworld"
+      ],
+      "drops": [
+        "1-3 Glow Ink Sacs",
+        "1-3 Experience Orbs"
+      ]
+    }
+  },
+  "horse": {
+    "name": "Horse",
+    "hints": [
+      {
+        "text": "A tamable and rideable animal",
+        "difficulty": 1
+      },
+      {
+        "text": "Found in various biomes, including plains, savannas, and forests",
+        "difficulty": 2
+      },
+      {
+        "text": "Can come in different coat colors, such as black, brown, gray, and white",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be equipped with saddles, horse armor, and chests",
+        "difficulty": 2
+      },
+      {
+        "text": "Can jump over fences and some other blocks",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be bred using golden apples or golden carrots",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be used to travel faster and carry items in the inventory",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be healed using hay bales, apples, golden apples, or golden carrots",
+        "difficulty": 2
+      },
+      {
+        "text": "Can wear different types of horse armor for additional protection",
+        "difficulty": 3
+      },
+      {
+        "text": "Can be enchanted with various enchantments, such as Speed and Jump Boost",
+        "difficulty": 3
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:horse",
+      "entity_type": "Passive mob",
+      "spawn_conditions": [
+        "Various biomes: plains, savannas, forests, etc."
+      ],
+      "drops": [
+        "Leather",
+        "Experience orbs (1-3)"
+      ]
+    }
+  },
+  "mooshroom": {
+    "name": "mooshroom",
+    "hints": [
+      {
+        "text": "A mushroom-covered variant of a cow",
+        "difficulty": 1
+      },
+      {
+        "text": "Spawns exclusively in mushroom fields biome",
+        "difficulty": 2
+      },
+      {
+        "text": "Comes in red and brown variants",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be milked with a bucket to obtain mushroom stew",
+        "difficulty": 2
+      },
+      {
+        "text": "When struck by lightning, it transforms into a different color variant",
+        "difficulty": 3
+      },
+      {
+        "text": "Can be bred with wheat and produce offspring of different color variants",
+        "difficulty": 3
+      },
+      {
+        "text": "Drops leather and raw beef (steak if killed while on fire)",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be sheared to obtain mushrooms and turn into a regular cow",
+        "difficulty": 3
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:mooshroom",
+      "entity_type": "Animal",
+      "spawn_conditions": [
+        "Biome: Mushroom Fields",
+        "Light level: 9 or higher",
+        "On mycelium"
+      ],
+      "drops": [
+        "Leather",
+        "0-2 Raw Beef",
+        "1-3 Mushroom (when sheared)"
+      ]
+    }
+  },
+  "mule": {
+    "name": "Mule",
+    "hints": [
+      {
+        "text": "The offspring of a horse and a donkey",
+        "difficulty": 1
+      },
+      {
+        "text": "Cannot breed with other mules",
+        "difficulty": 2
+      },
+      {
+        "text": "Looks similar to a donkey but with darker and reddish-brown coat",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be ridden and equipped with chests",
+        "difficulty": 2
+      },
+      {
+        "text": "Drops leather and any equipped chest upon death",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be tamed and ridden for transportation",
+        "difficulty": 2
+      },
+      {
+        "text": "Tamed mules can be equipped with a saddle and a chest",
+        "difficulty": 3
+      },
+      {
+        "text": "Mules can be fed with sugar, wheat, apple, golden carrot, golden apple, or hay bale",
+        "difficulty": 3
+      },
+      {
+        "text": "Mules have varying health, movement speed, and jump strength",
+        "difficulty": 3
+      },
+      {
+        "text": "Mules cannot fit through a 1-block-wide gap",
+        "difficulty": 2
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:mule",
+      "entity_type": "Animal",
+      "spawn_conditions": [
+        "Breed a horse and a donkey",
+        "Cannot breed with other mules"
+      ],
+      "drops": [
+        "Leather",
+        "Equipped chest (if any)"
+      ]
+    }
+  },
+  "ocelot": {
+    "name": "Ocelot",
+    "hints": [
+      {
+        "text": "Rare passive mobs found in jungles",
+        "difficulty": 1
+      },
+      {
+        "text": "Spawn above grass blocks at sea level or higher",
+        "difficulty": 2
+      },
+      {
+        "text": "Adult ocelots have a chance to spawn with 1-2 kittens",
+        "difficulty": 2
+      },
+      {
+        "text": "Can attack chickens and baby turtles",
+        "difficulty": 3
+      },
+      {
+        "text": "Sneak and stalk their prey before chasing it down",
+        "difficulty": 2
+      },
+      {
+        "text": "Immune to fall damage and avoid falls",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be tamed by feeding them raw cod or raw salmon",
+        "difficulty": 3
+      },
+      {
+        "text": "Tamed ocelots gain trust and no longer flee from players",
+        "difficulty": 3
+      },
+      {
+        "text": "Ocelots that are trusting do not despawn",
+        "difficulty": 2
+      },
+      {
+        "text": "Ocelots can be bred by feeding them raw cod or raw salmon",
+        "difficulty": 3
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:ocelot",
+      "entity_type": "Animal",
+      "spawn_conditions": [
+        "Grass blocks at sea level or higher in jungles"
+      ],
+      "drops": [
+        "0-3 experience orbs (when killed by player or tamed wolf)",
+        "1-7 experience orbs (upon successful breeding)"
+      ]
+    }
+  },
+  "parrot": {
+    "name": "Parrot",
+    "hints": [
+      {
+        "text": "A colorful and talkative avian mob",
+        "difficulty": 1
+      },
+      {
+        "text": "Spawns in jungle biomes",
+        "difficulty": 2
+      },
+      {
+        "text": "Can imitate sounds of nearby hostile mobs",
+        "difficulty": 3
+      },
+      {
+        "text": "Tamed with seeds and perches on the player's shoulder",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be bred with seeds",
+        "difficulty": 2
+      },
+      {
+        "text": "Has different color variations: red, blue, green, cyan, and gray",
+        "difficulty": 2
+      },
+      {
+        "text": "Drops feathers upon death",
+        "difficulty": 1
+      },
+      {
+        "text": "Can ride on the player's shoulder and follow them around",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be commanded to sit or follow",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be healed using cookies",
+        "difficulty": 2
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:parrot",
+      "entity_type": "Passive mob",
+      "spawn_conditions": [
+        "Biome: Jungle"
+      ],
+      "drops": [
+        "Feathers (1-2)"
+      ]
+    }
+  },
+  "pig": {
+    "name": "Pig",
+    "hints": [
+      {
+        "text": "A passive mob found commonly in most grass biomes",
+        "difficulty": 1
+      },
+      {
+        "text": "Source of porkchops and can be equipped with a saddle",
+        "difficulty": 2
+      },
+      {
+        "text": "Spawns in groups above grass blocks with sufficient light",
+        "difficulty": 2
+      },
+      {
+        "text": "Drops raw porkchops or cooked porkchops if killed while on fire",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be ridden with a saddle and controlled with a carrot on a stick",
+        "difficulty": 3
+      },
+      {
+        "text": "Follows players holding carrots, potatoes, beetroots, or a carrot on a stick",
+        "difficulty": 2
+      },
+      {
+        "text": "Breeds using carrots, potatoes, or beetroots",
+        "difficulty": 2
+      },
+      {
+        "text": "Pigs struck by lightning transform into zombified piglins",
+        "difficulty": 3
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:pig",
+      "entity_type": "Passive mob",
+      "spawn_conditions": [
+        "Grassy Overworld biomes with sufficient light",
+        "Spawns in animal pens, stables, and village backyards"
+      ],
+      "drops": [
+        "1-3 raw porkchops (or cooked porkchops if killed while on fire)",
+        "Saddle (if saddled)",
+        "1-3 experience orbs (if killed by player or tamed wolf)"
+      ]
+    }
+  },
+  "pufferfish": {
+    "name": "Pufferfish",
+    "hints": [
+      {
+        "text": "A bucketable aquatic mob found in oceans",
+        "difficulty": 1
+      },
+      {
+        "text": "Defensively inflates when approached too closely, dealing damage and inflicting Poison",
+        "difficulty": 2
+      },
+      {
+        "text": "Spawns in warm, lukewarm, and deep lukewarm ocean biomes in groups of 1-3",
+        "difficulty": 2
+      },
+      {
+        "text": "Drops 1 pufferfish when killed, unaffected by Looting",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be collected with a water bucket, giving a bucket of pufferfish",
+        "difficulty": 2
+      },
+      {
+        "text": "Weaknesses: Cannot survive out of water and vulnerable to Impaling enchantment",
+        "difficulty": 3
+      },
+      {
+        "text": "Inflates to semi-puffed or fully puffed state, inflicting damage and Poison to nearby entities",
+        "difficulty": 3
+      },
+      {
+        "text": "Fully puffed pufferfish can poison for 6 seconds (Java Edition) or 10 seconds (Bedrock Edition)",
+        "difficulty": 3
+      },
+      {
+        "text": "Fish placed with buckets do not despawn naturally",
+        "difficulty": 2
+      },
+      {
+        "text": "Doesn't swim in schools like other fish",
+        "difficulty": 1
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:pufferfish",
+      "entity_type": "Aquatic mob",
+      "spawn_conditions": [
+        "Warm, lukewarm, and deep lukewarm ocean biomes",
+        "Subject to fish spawning requirements"
+      ],
+      "drops": [
+        "1 pufferfish (unaffected by Looting)",
+        "5% chance of dropping bone meal (Java Edition)",
+        "1-2 bones (25% chance, Bedrock Edition)",
+        "1-3 experience orbs (when killed by a player or tamed wolf)"
+      ]
+    }
+  },
+  "rabbit": {
+    "name": "Rabbit",
+    "hints": [
+      {
+        "text": "An uncommon passive mob",
+        "difficulty": 1
+      },
+      {
+        "text": "Spawns in various biomes, including snowy plains and flower forests",
+        "difficulty": 2
+      },
+      {
+        "text": "Comes in different colors, such as brown, white, black, and salt and pepper",
+        "difficulty": 2
+      },
+      {
+        "text": "Drops rabbit's foot, rabbit hide, and raw rabbit when killed",
+        "difficulty": 2
+      },
+      {
+        "text": "Can breed using carrots, golden carrots, or dandelions",
+        "difficulty": 2
+      },
+      {
+        "text": "Avoids players within 8 blocks and most hostile mobs within 4 blocks",
+        "difficulty": 3
+      },
+      {
+        "text": "Killer Bunny variant is hostile and deals high damage to players",
+        "difficulty": 4
+      },
+      {
+        "text": "Can eat carrot crops if mobGriefing is true",
+        "difficulty": 2
+      },
+      {
+        "text": "Spawns as adults with one to two babies in certain biomes",
+        "difficulty": 2
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:rabbit",
+      "entity_type": "Animal",
+      "spawn_conditions": [
+        "Above grass, snow blocks, or sand",
+        "Biome-specific spawns"
+      ],
+      "drops": [
+        "Rabbit hide (0-1, increased with Looting)",
+        "Raw rabbit (Bedrock Edition: 0-1, increased with Looting)",
+        "Raw rabbit (Java Edition: 1, increased with Looting)",
+        "Rabbit's foot (10% chance, increased with Looting)",
+        "1-3 drops upon player kills",
+        "1-7 drops upon successful breeding"
+      ]
+    }
+  },
+  "salmon": {
+    "name": "",
+    "hints": [
+      {
+        "text": "A common bucketable aquatic passive mob",
+        "difficulty": 1
+      },
+      {
+        "text": "Found in oceans, rivers, frozen oceans, and frozen rivers",
+        "difficulty": 2
+      },
+      {
+        "text": "Can spawn in groups of 1-5 in cold or frozen oceans and rivers",
+        "difficulty": 2
+      },
+      {
+        "text": "Comes in small, normal, and large sizes",
+        "difficulty": 2
+      },
+      {
+        "text": "Drops 1 raw salmon (cooked salmon if killed while on fire)",
+        "difficulty": 2
+      },
+      {
+        "text": "May drop bones or bone meal when killed",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be collected using a water bucket",
+        "difficulty": 2
+      },
+      {
+        "text": "Swims in schools and can jump up waterfalls",
+        "difficulty": 3
+      },
+      {
+        "text": "Unable to survive out of water and suffocates when out of it",
+        "difficulty": 3
+      },
+      {
+        "text": "Weakness to weapons with the Impaling enchantment",
+        "difficulty": 3
+      },
+      {
+        "text": "Axolotls always attack this mob on sight",
+        "difficulty": 4
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:salmon",
+      "entity_type": "Animal",
+      "spawn_conditions": [
+        "Biomes: River, Frozen River, Cold Ocean, Deep Cold Ocean, Frozen Ocean, Deep Frozen Ocean",
+        "Group size: 1-5 (cold or frozen oceans and rivers)"
+      ],
+      "drops": [
+        "Raw salmon (1)",
+        "Cooked salmon (if killed while on fire)",
+        "Bones (25% chance, if salmon size is small or medium)",
+        "1-3 drops upon player or tamed wolf kills",
+        "Bone meal (5% chance, Java Edition only)"
+      ]
+    }
+  },
+  "sheep": {
+    "name": "Sheep",
+    "hints": [
+      {
+        "text": "A passive farm animal",
+        "difficulty": 1
+      },
+      {
+        "text": "Can be found in various biomes",
+        "difficulty": 1
+      },
+      {
+        "text": "Can be sheared to obtain wool",
+        "difficulty": 1
+      },
+      {
+        "text": "Wool can be dyed in different colors",
+        "difficulty": 1
+      },
+      {
+        "text": "Drops mutton when killed",
+        "difficulty": 1
+      },
+      {
+        "text": "Can eat grass to regrow their wool",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be bred using wheat",
+        "difficulty": 2
+      },
+      {
+        "text": "Occasionally spawns as a baby sheep",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be equipped with a colored carpet as a decorative item",
+        "difficulty": 3
+      },
+      {
+        "text": "Can suffocate if their wool grows too long",
+        "difficulty": 3
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:sheep",
+      "entity_type": "Passive mob",
+      "spawn_conditions": [
+        "Various biomes"
+      ],
+      "drops": [
+        "Wool (1-3)",
+        "Mutton (1-2 if adult)"
+      ]
+    }
+  },
+  "skeleton_horse": {
+    "name": "",
+    "hints": [
+      {
+        "text": "An undead variant of the horse",
+        "difficulty": 1
+      },
+      {
+        "text": "Sometimes spawns when lightning strikes",
+        "difficulty": 1
+      },
+      {
+        "text": "Spawns as part of a skeleton trap horse group",
+        "difficulty": 2
+      },
+      {
+        "text": "Skeleton horsemen consist of a skeleton riding a skeleton horse",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be tamed and ridden by players",
+        "difficulty": 2
+      },
+      {
+        "text": "Drops bones and saddles when killed",
+        "difficulty": 1
+      },
+      {
+        "text": "Can jump up to five blocks high",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be controlled by the player using a saddle",
+        "difficulty": 2
+      },
+      {
+        "text": "Skeleton horses have damage immunity for 3 seconds after spawning",
+        "difficulty": 3
+      },
+      {
+        "text": "Skeleton horses slowly regenerate health while being ridden",
+        "difficulty": 2
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:skeleton_horse",
+      "entity_type": "Undead mob",
+      "spawn_conditions": [
+        "Spawns when lightning strikes",
+        "Part of a skeleton trap horse group"
+      ],
+      "drops": [
+        "Bones (0-2)",
+        "Saddle (if equipped)"
+      ]
+    }
+  },
+  "snow_golem": {
+    "name": "Snow Golem",
+    "hints": [
+      {
+        "text": "A buildable passive mob",
+        "difficulty": 1
+      },
+      {
+        "text": "Throws snowballs at monsters to provoke them",
+        "difficulty": 2
+      },
+      {
+        "text": "Produces a trail of snow in cold biomes",
+        "difficulty": 2
+      },
+      {
+        "text": "Takes heat damage and dies in hot biomes",
+        "difficulty": 2
+      },
+      {
+        "text": "Created by placing snow blocks in an I shape and a pumpkin on top",
+        "difficulty": 2
+      },
+      {
+        "text": "Drops snowballs and a carved pumpkin when sheared",
+        "difficulty": 1
+      },
+      {
+        "text": "Wanders aimlessly and avoids water and obstacles",
+        "difficulty": 1
+      },
+      {
+        "text": "Attacks monsters by throwing snowballs, provoking them",
+        "difficulty": 2
+      },
+      {
+        "text": "Immune to damage from powder snow",
+        "difficulty": 2
+      },
+      {
+        "text": "Damaged by rain, water, and biomes with a temperature greater than 1.0",
+        "difficulty": 2
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:snow_golem",
+      "entity_type": "Passive mob",
+      "spawn_conditions": [
+        "When created by a player, enderman, or dispenser"
+      ],
+      "drops": [
+        "Snowballs (0-15)",
+        "Carved Pumpkin (when sheared)"
+      ]
+    }
+  },
+  "squid": {
+    "name": "Squid",
+    "hints": [
+      {
+        "text": "A common passive aquatic mob",
+        "difficulty": 1
+      },
+      {
+        "text": "Spawns in rivers and oceans",
+        "difficulty": 1
+      },
+      {
+        "text": "Moves in three dimensions and wanders aimlessly",
+        "difficulty": 2
+      },
+      {
+        "text": "Suffocates when out of water for 15 seconds",
+        "difficulty": 2
+      },
+      {
+        "text": "Drops 1-3 ink sacs and experience orbs when killed by a player or tamed wolf",
+        "difficulty": 2
+      },
+      {
+        "text": "Does not attack or interact with players",
+        "difficulty": 1
+      },
+      {
+        "text": "Produces a cloud of black ink particles and swims away when attacked",
+        "difficulty": 2
+      },
+      {
+        "text": "Affected by Impaling enchantment and attacked by axolotls",
+        "difficulty": 2
+      },
+      {
+        "text": "Cannot swim in lava but can survive on land with Water Breathing effect",
+        "difficulty": 3
+      },
+      {
+        "text": "Can suffocate in air or in water only 1 block deep",
+        "difficulty": 3
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:squid",
+      "entity_type": "Passive mob",
+      "spawn_conditions": [
+        "Biomes: River, Ocean"
+      ],
+      "drops": [
+        "Ink sacs (1-3)",
+        "Experience orbs (1-3)"
+      ]
+    }
+  },
+  "strider": {
+    "name": "Strider",
+    "hints": [
+      {
+        "text": "A passive mob native to the Nether",
+        "difficulty": 1
+      },
+      {
+        "text": "Can walk on lava and be saddled by players",
+        "difficulty": 2
+      },
+      {
+        "text": "Spawns in various Nether biomes",
+        "difficulty": 2
+      },
+      {
+        "text": "Controlled using a specific item on a stick",
+        "difficulty": 2
+      },
+      {
+        "text": "Drops string upon death",
+        "difficulty": 2
+      },
+      {
+        "text": "Can breed using a specific item",
+        "difficulty": 2
+      },
+      {
+        "text": "Not damaged by lava but takes damage from water, rain, and freezing",
+        "difficulty": 3
+      },
+      {
+        "text": "Changes appearance and behavior when outside of lava",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be ridden by specific mobs and players",
+        "difficulty": 3
+      },
+      {
+        "text": "Can spawn with additional entities riding on top",
+        "difficulty": 2
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:strider",
+      "entity_type": "Passive mob",
+      "spawn_conditions": [
+        "Specific biomes"
+      ],
+      "drops": [
+        "String",
+        "Saddle (if saddled)",
+        "Experience orbs"
+      ]
+    }
+  },
+  "tadpole": {
+    "name": "Tadpole",
+    "hints": [
+      {
+        "text": "A bucketable aquatic baby passive mob",
+        "difficulty": 1
+      },
+      {
+        "text": "Hatched from frogspawn and matures into one of three frog variants",
+        "difficulty": 2
+      },
+      {
+        "text": "Swims aimlessly in water and flops around on land",
+        "difficulty": 2
+      },
+      {
+        "text": "Hunted by axolotls and follows a player holding a slimeball",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be picked up with a water bucket",
+        "difficulty": 2
+      },
+      {
+        "text": "Grows up into a frog in different biomes",
+        "difficulty": 2
+      },
+      {
+        "text": "Takes one Minecraft day to grow up and can be accelerated by feeding it slimeballs",
+        "difficulty": 2
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:tadpole",
+      "entity_type": "Animal, Aquatic",
+      "spawn_conditions": [
+        "Hatches from frogspawn in groups of 2-5"
+      ],
+      "drops": []
+    }
+  },
+  "tropical_fish": {
+    "name": "Tropical Fish",
+    "hints": [
+      {
+        "text": "A common bucketable aquatic passive mob found in oceans, mangrove swamps, and lush caves",
+        "difficulty": 1
+      },
+      {
+        "text": "Has 2,700 naturally occurring variants with unique colors, shapes, and names",
+        "difficulty": 2
+      },
+      {
+        "text": "Spawns in groups in lukewarm or warm oceans, deep variants, and lush caves",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be collected with a water bucket and placed in water",
+        "difficulty": 2
+      },
+      {
+        "text": "Weakness to the Impaling enchantment, affecting other aquatic mobs as well",
+        "difficulty": 2
+      },
+      {
+        "text": "Tends to swim in schools with a maximum of nine tropical fish per school",
+        "difficulty": 2
+      },
+      {
+        "text": "Cannot survive out of water and flops around before suffocating",
+        "difficulty": 3
+      },
+      {
+        "text": "Drops tropical fish or bone meal when killed by a player or tamed wolf",
+        "difficulty": 1
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:tropical_fish",
+      "entity_type": "Animal, Aquatic",
+      "spawn_conditions": [
+        "Biomes: Mangrove Swamp, Lukewarm Ocean, Deep Lukewarm Ocean, Warm Ocean, Lush Caves"
+      ],
+      "drops": [
+        "1 tropical fish (or bone meal in Java Edition)",
+        "1-3 when killed by a player or tamed wolf"
+      ]
+    }
+  },
+  "turtle": {
+    "name": "",
+    "hints": [
+      {
+        "text": "A common passive mob found in beach biomes",
+        "difficulty": 1
+      },
+      {
+        "text": "Only source of scutes, which drop from baby turtles when they mature",
+        "difficulty": 2
+      },
+      {
+        "text": "Spawns on sand in beach biomes during daylight",
+        "difficulty": 2
+      },
+      {
+        "text": "Moves slowly on land and can swim at a fast speed in water",
+        "difficulty": 2
+      },
+      {
+        "text": "Flees when attacked and tries to reach the nearest water source",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be led by a player holding seagrass within 10 blocks",
+        "difficulty": 2
+      },
+      {
+        "text": "Drops seagrass when killed; increased drop with Looting enchantment",
+        "difficulty": 2
+      },
+      {
+        "text": "Drops a bowl when killed by lightning",
+        "difficulty": 3
+      },
+      {
+        "text": "Breeds by feeding two turtles seagrass; eggs are laid on nearby sand",
+        "difficulty": 2
+      },
+      {
+        "text": "Turtles remember their home beach and return there to lay eggs after breeding",
+        "difficulty": 3
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:turtle",
+      "entity_type": "Animal",
+      "spawn_conditions": [
+        "Beach biome during daylight",
+        "Sand blocks below sea level 4"
+      ],
+      "drops": [
+        "0-2 seagrass (increased with Looting enchantment)",
+        "1-3 if killed by a player or tamed wolf",
+        "1 bowl if killed by lightning"
+      ]
+    }
+  },
+  "villager": {
+    "name": "",
+    "hints": [
+      {
+        "text": "A common humanoid mob found in villages",
+        "difficulty": 1
+      },
+      {
+        "text": "Engages in various professions, such as farmer, librarian, and blacksmith",
+        "difficulty": 2
+      },
+      {
+        "text": "Trades valuable items in exchange for emeralds",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be cured from being a zombie villager using a golden apple and a potion of weakness",
+        "difficulty": 3
+      },
+      {
+        "text": "Breeds by sharing food with other villagers",
+        "difficulty": 2
+      },
+      {
+        "text": "Changes appearance based on the biome they are located in",
+        "difficulty": 2
+      },
+      {
+        "text": "Can be attacked by zombies and other hostile mobs",
+        "difficulty": 1
+      },
+      {
+        "text": "May offer discounts on trades based on reputation",
+        "difficulty": 3
+      },
+      {
+        "text": "Gives off green particles when healing",
+        "difficulty": 2
+      },
+      {
+        "text": "Emits sound effects when trading or being attacked",
+        "difficulty": 2
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:villager",
+      "entity_type": "Humanoid mob",
+      "spawn_conditions": [
+        "Village structures",
+        "Sufficient beds and job site blocks"
+      ],
+      "drops": []
+    }
+  },
+  "wandering_trader": {
+    "name": "",
+    "hints": [
+      {
+        "text": "A passive mob that randomly spawns near the player",
+        "difficulty": 1
+      },
+      {
+        "text": "Appears in the Overworld with two leashed trader llamas",
+        "difficulty": 2
+      },
+      {
+        "text": "Sells various items, including plants, dyes, and buckets of fish",
+        "difficulty": 2
+      },
+      {
+        "text": "Trades with emeralds as currency and locks trades after being purchased",
+        "difficulty": 3
+      },
+      {
+        "text": "Can form a caravan with wild llamas",
+        "difficulty": 2
+      },
+      {
+        "text": "Drinks potions of invisibility and milk to renew effects",
+        "difficulty": 3
+      },
+      {
+        "text": "Avoids zombies, illagers, and vexes",
+        "difficulty": 2
+      },
+      {
+        "text": "Flees from players when attacked and llamas attack back",
+        "difficulty": 3
+      },
+      {
+        "text": "Does not anger iron golems when attacked or killed",
+        "difficulty": 2
+      },
+      {
+        "text": "Does not visually sit down when riding objects like boats and minecarts",
+        "difficulty": 2
+      }
+    ],
+    "technical_info": {
+      "entity_id": "minecraft:wandering_trader",
+      "entity_type": "Passive mob",
+      "spawn_conditions": [
+        "Randomly in the Overworld within a 48-block radius of a player",
+        "May try to spawn near a claimed bell in a village (Bedrock Edition)"
+      ],
+      "drops": [
+        "2 leashed trader llamas",
+        "Leads (if trader or llama dies or they are separated)"
+      ]
+    }
   }
 }
