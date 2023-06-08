@@ -11,7 +11,7 @@ response:
 ## promt 2 for getting the info from the wiki
 
 make it in the format like this and don't give the name 
-of the mob in any of the hints and put it in code format
+of the mob in any of the hints and put it in CODE FORMAT (IMPORTANT)
 so I can copy it easyer:
 
 
@@ -40,4 +40,4 @@ so I can copy it easyer:
             "Axolotl Bucket (if bucketed)",
             "Experience orbs (1-3)"
           ]
-        }
+        },
